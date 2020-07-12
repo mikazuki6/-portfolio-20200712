@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>portfolio</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/colorbox.css">
+<link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+<div id="wrapper">
+    <div class="gnavi">
+        <p class="btn-gnavi">
+            <span></span>
+            <span></span>
+            <span></span>
+        </p>
+        <nav class="menu-gnavi">
+            <ul class="menu">
+                <li><a href="#section01">TOP</a></li>
+                <li><a href="#section02">Profile</a></li>
+                <li><a href="#section03">Memories</a></li>
+                <li><a href="#section04">Home Town</a></li>
+                <li><a href="#section05">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="contents">
+        <section id="section01">
+            <div class="section-inner">
+                <h2>自己紹介Portfolio</h2>
+                <h4>~made by Kazuki~</h4>
+            </div>
+        </section>
+        <section id="section02">
+            <div class="section-inner">
+                <h2>Profile</h2>
+                <p>はじめまして。平成11年生まれの大学生、重富　一輝（しげとみ　かずき）です。<br><br>
+                    富山生まれ、富山育ち。小・中・高はサッカー漬けの日々を送っていました。<br><br>
+                    現在は長期インターンシップ、学生団体などの様々な環境で活動を行っています。<br><br>
+                    趣味は読書、アニメ鑑賞、ゲーム(FPS)、スポーツ全般（特にサッカー）<br><br>
+                    座右の銘は「一日一善」。よろしくお願いします！！
+                </p>
+            </div>
+        </section>
+        <section id="section03">
+            <div class="section-inner">
+                <h2>Memories</h2>
+                <div class="slider">
+                    <ul class="slider-inner"></ul>
+                    <ul class="nav"></ul>
+                    <p id="arrow-prev" class="arrow">←</p>
+                    <p id="arrow-next" class="arrow">→</p>
+                </div>
+            </div>
+        </section>
+        <section id="section04">
+            <div class="section-inner">
+                <h2>Home Town</h2>
+                <div id="map"></div>
+            </div>
+        </section>
+        <section id="section05">
+            <div class="section-inner">
+                <h2>Contact</h2>
+                <h5>TwitterのDMからご連絡ください。</h5>
+            <div class="contact-list" style="text-align: center;">
+                <a href="https://twitter.com/KZ_k666" target="_blank"><img src="images/contact/contact.jpg" alt="" class="contact-img" style="margin: 0 auto;"><br><span class="contact-desc">Twitter</span></a>
+            </div>
+        </section>
+    </div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv9UBEK1ZXUoSaycB5azXlRUGd1QKef4c"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
